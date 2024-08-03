@@ -57,7 +57,7 @@ def write_config(config):
     with open(CONFIG_FILE, 'w') as f:
         json.dump(config, f)
 
-# SCRIPT MADE BY @venomXcrazy ON TELEGRAM THIS IS A PAID SCRIPT MOST POWERFULL A DDOS TELEGRAM BOT SCRIPT
+# SCRIPT MADE BY @rishabgupta01 ON TELEGRAM THIS IS A PAID SCRIPT MOST POWERFULL A DDOS TELEGRAM BOT SCRIPT
 
 config = load_config()
 bot = telebot.TeleBot(config['bot_token'])
